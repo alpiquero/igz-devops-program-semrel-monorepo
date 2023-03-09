@@ -26,6 +26,6 @@ jobs:
         branch: main
         extends: |
           semantic-release-monorepo@7.0.5
-        working-directory: ${{ matrix.packages }}
+        working_directory: ${{ matrix.packages }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
