@@ -1,0 +1,12 @@
+{
+  "name": "package2",
+  "release": {
+    "extends": "semantic-release-monorepo",
+    "branches": "main",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  }
+}
