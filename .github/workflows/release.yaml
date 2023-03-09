@@ -28,4 +28,4 @@ jobs:
           semantic-release-monorepo@7.0.5
         working_directory: ${{ matrix.packages }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
